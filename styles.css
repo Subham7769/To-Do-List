@@ -1,0 +1,132 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+  background-color: #e2ebf1;
+}
+header {
+  background-color: cornflowerblue;
+  width: 80vw;
+  color: #fff;
+  padding: 1.5rem;
+  border-radius: 0.5rem 10rem 0.5rem 10rem;
+  box-sizing: border-box;
+}
+.input-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  width: 80vw;
+  border-left: 10px solid cornflowerblue;
+  border-right: 10px solid cornflowerblue;
+  border-bottom: 1px solid cornflowerblue;
+  border-top: 1px solid cornflowerblue;
+  border-radius: 1rem;
+  margin-top: 0.2rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  background-color: rgb(228, 236, 248);
+}
+hr {
+  width: 100%;
+  color: #000;
+}
+.input-section > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+input[type="search"],
+input[type="date"] {
+  width: 99%;
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: rgb(228, 236, 248);
+
+  border: none;
+  color: #494848;
+  font-size: 2.5rem;
+  outline: none;
+}
+input[type="date"] {
+  padding: 0.8rem;
+  width: 20%;
+  font-size: 1rem;
+  outline: 0.5px solid #494848;
+}
+input[type="submit"],
+button,
+b {
+  padding: 1rem 1.5rem;
+  background-color: cornflowerblue;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  transition: all 0.5s ease;
+}
+button:hover{
+    transform: scale(1.1);
+}
+b {
+  background-color: transparent;
+  font-size: 1rem;
+  color: black;
+}
+#priority {
+  font-size: 1.5rem;
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: transparent;
+  border: none;
+  color: #494848;
+}
+.task-list {
+  width: 80vw;
+  box-sizing: border-box;
+}
+ul {
+  width: 100%;
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-left: 10px solid cornflowerblue;
+  background-color: rgba(100, 148, 237, 0.193);
+  padding: 1rem;
+  margin-top: 0.4rem;
+  cursor: pointer;
+}
+li > span {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 70%;
+}
+li > span > button {
+  margin: 0.2rem;
+}
+li > span > b > i {
+  font-size: 1.2rem;
+}
+.delete {
+  background-color: rgba(255, 0, 0, 0.836);
+}
+.Completed {
+  background-color: rgba(0, 128, 0, 0.767);
+}
+
